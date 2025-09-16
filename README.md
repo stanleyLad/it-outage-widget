@@ -13,7 +13,7 @@ npm start
 ```
 One click deployment to heroku:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/stanleyLad/it-outage-widget-dev)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/stanleyLad/it-outage-widget)
 
 ### Environment variables
 
@@ -26,15 +26,6 @@ The node app needs the following env variables set, that you can get from your M
 * CLIENT_SECRET - the client secret from the API integration so it can use the auth endpoing to get a token 
 
 ## Building your own block from here
-
-```bash
-# do not fork
-git clone https://github.com/tbesluau/sampleblock.git <my block name e.g. myblock>
-cd <my block name e.g. mybock>
-# create your own empty github repository for your new block and copy the clone url for it
-git remote set-url origin <your empty repo url>
-npm install
-```
 
 Files to edit:
 
